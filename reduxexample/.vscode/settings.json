@@ -1,0 +1,7 @@
+{
+    "highlight-matching-tag.style": {
+        "borderWidth": "1px",
+        "borderColor": "blue",
+        "borderStyle": "solid"
+    }
+}
