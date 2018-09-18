@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
-class Postform extends Component {
+class PostForm extends Component {
   constructor(props) {
-    this.state = {
-      posts: []
-    }
+    super(props);
+    this.state = {};
   }
   render() {
     return (
@@ -15,4 +14,4 @@ class Postform extends Component {
   }
 }
 
-export default Postform;
+export default PostForm;
