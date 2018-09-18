@@ -3,5 +3,9 @@
         "borderWidth": "1px",
         "borderColor": "blue",
         "borderStyle": "solid"
-    }
+    },
+
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false
+
 }
