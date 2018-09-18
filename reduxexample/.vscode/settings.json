@@ -6,6 +6,6 @@
     },
 
     "editor.minimap.enabled": false,
-    "workbench.editor.enablePreview": false
-
+    "workbench.editor.enablePreview": false,
+    "editor.tabSize": 2,
 }
