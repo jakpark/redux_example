@@ -29,7 +29,7 @@ class PostForm extends Component {
     };
 
     // call action
-    createPost();
+    this.props.createPost(post);
   }
   
   render() {
@@ -54,4 +54,8 @@ class PostForm extends Component {
   }
 }
 
-export default PostForm;
+PostForm.propTypes = {
+  createPost: PropTypes.func.isRequired
+}
+
+export default connect(null, { createPost })(PostForm);
